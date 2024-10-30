@@ -1,1 +1,5 @@
-console.log('Hola mundo')
+function iws(string) {
+    return string === "wds"
+}
+
+module.export = iws;

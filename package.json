@@ -1,0 +1,12 @@
+{
+  "name": "@caral/icons",
+  "version": "1.0.0",
+  "description": "iconos para el uso interno de seidor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/JuanToSeidor/Icons_seidor.git",
+  "author": "Juantorres",
+  "license": "ISC"
+}
