@@ -1,12 +1,19 @@
 {
-  "name": "icons",
+  "name": "iconscaral",
   "version": "1.0.0",
   "description": "iconos para el uso interno de seidor",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib",
+  "prepublish": "npm run build"
   },
   "repository": "https://github.com/JuanToSeidor/Icons_seidor.git",
   "author": "Juantorres",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9"
+  }
 }
