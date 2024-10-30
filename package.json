@@ -1,5 +1,5 @@
 {
-  "name": "@caral/icons",
+  "name": "icons",
   "version": "1.0.0",
   "description": "iconos para el uso interno de seidor",
   "main": "index.js",
